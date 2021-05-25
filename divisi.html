@@ -11,6 +11,10 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet" />
+
+  <!-- aos stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <style>
     * {
       font-family: "Montserrat", sans-serif;
@@ -19,7 +23,7 @@
 </head>
 
 <body>
-  <header id="header" class="fixed-top">
+  <header id="header" class="fixed-top" data-aos="fade-down">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-xl-10 d-flex align-items-center justify-content-end">
@@ -33,7 +37,6 @@
               <li class="active"><a href="divisi.html">Divisi</a></li>
               <li><a href="gallery.html">Gallery</a></li>
               <li><a href="tentang.html">Tentang</a></li>
-              <li><a href="#">Login</a></li>
             </ul>
           </nav>
         </div>
@@ -51,7 +54,7 @@
         <div class="carousel-item active img-fluid" style="background-image: url(assets/img/pelantikan.JPG)">
           <div class="carousel-container">
             <div class="container d-inline-flex">
-              <div class="col-md-6 mx-auto">
+              <div class="col-md-6 mx-auto" data-aos="zoom-in">
                 <h2 class="text-center animated fadeInDown">
                   Divisi
                 </h2>
@@ -84,100 +87,109 @@
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" style="background-color:#FFF;">
-      <h2 class="text-center"><strong>Badan Pengurus Inti</strong></h2>
-      <div class="container d-inline-flex">
-        <div class="col-md-6">
-          <img src="assets/img/team/sekertaris.png" class="rounded-circle mx-auto d-block mt-5">
-          <p class="text-center mt-3"><strong>Sekretaris Umum BSB 2020/2021</strong></p>
-          <p class="text-center">Tiur Azliani P - FIA UB</p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12" data-aos="fade-down">
+            <h2 class="text-center"><strong>Badan Pengurus Inti</strong></h2>
+          </div>
         </div>
-        <div class="col-md-4">
-          <img src="assets/img/team/kahim.png" class="rounded-circle mx-auto d-block mt-5">
-          <p class="text-center mt-3"><strong>Ketua Umum BSB 2020/2021</strong></p>
-          <p class="text-center">Alfianti Nur F - FIA UB</p>
-        </div>
-        <div class="col-md-6">
-          <img src="assets/img/team/bendahara.png" class="rounded-circle mx-auto d-block mt-5">
-          <p class="text-center mt-3"><strong>Bendahara Umum BSB 2020/2021</strong></p>
-          <p class="text-center">Alfianti Nur F - FIA UB</p>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-right" data-aos-delay="300">
+            <img src="assets/img/team/sekertaris.png" class="rounded-circle mx-auto d-block mt-5">
+            <p class="text-center mt-3"><strong>Sekretaris Umum BSB 2020/2021</strong></p>
+            <p class="text-center">Tiur Azliani P - FIA UB</p>
+          </div>
+          <div class="col-md-4" data-aos="zoom-in-down">
+            <img src="assets/img/team/kahim.png" class="rounded-circle mx-auto d-block mt-5">
+            <p class="text-center mt-3"><strong>Ketua Umum BSB 2020/2021</strong></p>
+            <p class="text-center">Alfianti Nur F - FIA UB</p>
+          </div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="300">
+            <img src="assets/img/team/bendahara.png" class="rounded-circle mx-auto d-block mt-5">
+            <p class="text-center mt-3"><strong>Bendahara Umum BSB 2020/2021</strong></p>
+            <p class="text-center">Alfianti Nur F - FIA UB</p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ======= Artikel Section ======= -->
     <section id="about" class="about text-white" style="background-color:#B82D06;">
-      <div class="container-fluid d-inline-flex mt-5">
-        <div class="col-lg-6 mt-5">
-          <img src="assets/img/team/kominfo.png" class="rounded-circle mx-auto d-block">
+      <div class="container-fluid px-5">
+        <div class="row mt-5 justify-content-center" data-aos="fade-right">
+          <div class="col-lg-6 text-center">
+            <img src="assets/img/team/kominfo.png" class="rounded-circle img-fluid">
+          </div>
+          <div class="col-lg-6 text-md-left text-sm-center m-auto">
+            <h3 class=""><strong>Divisi Komunikasi dan Informasi</strong></h3>
+            <p class="">
+              Divisi Komunikasi Dan Informasi fokus menangani hal-hal yang
+              berhubungan dengan informasi dan sosialisasi kegiatan serta
+              Informasi KeBojonegoroan kepada masyarakat dalam
+              media cetak dan elektronik
+            </p>
+          </div>
         </div>
-        <div class="col-lg-6 my-auto pr-5 mt-5">
-          <h3 class=""><strong>Divisi Komunikasi dan Informasi</strong></h3>
-          <p class="pr-5 pr-5">
-            Divisi Komunikasi Dan Informasi fokus menangani hal-hal yang
-            berhubungan dengan informasi dan sosialisasi kegiatan serta
-            Informasi KeBojonegoroan kepada masyarakat dalam
-            media cetak dan elektronik
-          </p>
+        <div class="row mt-5 justify-content-center" data-aos="fade-left">
+          <div class="col-lg-6 text-md-left text-sm-center m-auto">
+            <h3 class=""><strong>Divisi Pemuda Kebudayaandan Olahraga</strong></h3>
+            <p class="">
+              Divisi Pemuda Kebudayaan dan Olahraga merupakan divisi
+              yang bergerak dalam bidang kebudayaan dan olahraga dimana
+              didalamnya memiliki tugas pokok sebagai wadah pemuda
+              untuk terus melestarikan kebudayaan daerah serta menjga
+              kebugaran tubuh
+            </p>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="assets/img/team/pora.png" class="rounded-circle mx-auto d-block">
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center" data-aos="fade-right">
+          <div class="col-lg-6 text-center">
+            <img src="assets/img/team/kesma.png" class="rounded-circle mx-auto d-block">
+          </div>
+          <div class="col-lg-6 text-md-left text-sm-center m-auto">
+            <h3 class=""><strong>Divisi Pengabdian Masyarakat</strong></h3>
+            <p class="">
+              Divisi Pengabdian Masyarakat sebagai wadah bagi para
+              anggota dalam mewujudkan kepedulian terhadap masyarakat
+              melalui berbagai kegiatan dan tindakan nyata berupa
+              sumbangan maupun pembangunan dengan melakukan
+              kegiatan yang bersifat pengabdian.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center" data-aos="fade-left">
+          <div class="col-lg-6 text-md-left text-sm-center m-auto">
+            <h3 class=""><strong>Divisi Hubungan Masyarakat</strong></h3>
+            <p class="">
+              Divisi Hubungan Masyarakat berperan untuk menjalin hubungan dengan masyarakat. Dimana masyarakat merupakan
+              segala elemen yang berbeda di luar BSB, baik sesama Forda , organisasi lain maupun masyarakat secara luas.
+            </p>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="assets/img/team/humas.png" class="rounded-circle mx-auto d-block">
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center" data-aos="fade-right">
+          <div class="col-lg-6 text-center">
+            <img src="assets/img/team/psdm.png" class="rounded-circle mx-auto d-block">
+          </div>
+          <div class="col-lg-6 text-md-left text-sm-center m-auto">
+            <h3 class=""><strong>Divisi Pengembangan Sumber
+                Daya Manusia</strong></h3>
+            <p class="">
+              Divisi Pengembangan Sumber Daya Manusia sebagai
+              wadah bagi para anggota dalam menjalain silaturahmi
+              dan merekatkan satu sama lain melalui berbagai kegiatan
+              internal dan sebagai fasilitator anggota BSB
+            </p>
+          </div>
+  
         </div>
       </div>
-      <div class="container-fluid d-inline-flex mt-5">
-        <div class="col-lg-6 pl-5 mt-5">
-          <h3 class="pl-5"><strong>Divisi Pemuda Kebudayaandan Olahraga</strong></h3>
-          <p class="pl-5">
-            Divisi Pemuda Kebudayaan dan Olahraga merupakan divisi
-            yang bergerak dalam bidang kebudayaan dan olahraga dimana
-            didalamnya memiliki tugas pokok sebagai wadah pemuda
-            untuk terus melestarikan kebudayaan daerah serta menjga
-            kebugaran tubuh
-          </p>
-        </div>
-        <div class="col-lg-6 mt-5">
-          <img src="assets/img/team/pora.png" class="rounded-circle mx-auto d-block">
-        </div>
-      </div>
-      <div class="container-fluid d-inline-flex mt-5">
-        <div class="col-lg-6 mt-5">
-          <img src="assets/img/team/kesma.png" class="rounded-circle mx-auto d-block">
-        </div>
-        <div class="col-lg-6 my-auto pr-5 mt-5">
-          <h3 class=""><strong>Divisi Pengabdian Masyarakat</strong></h3>
-          <p class="pr-5 pr-5">
-            Divisi Pengabdian Masyarakat sebagai wadah bagi para
-            anggota dalam mewujudkan kepedulian terhadap masyarakat
-            melalui berbagai kegiatan dan tindakan nyata berupa
-            sumbangan maupun pembangunan dengan melakukan
-            kegiatan yang bersifat pengabdian.
-          </p>
-        </div>
-      </div>
-      <div class="container-fluid d-inline-flex mt-5">
-        <div class="col-lg-6 pl-5 mt-5">
-          <h3 class="pl-5"><strong>Divisi Hubungan Masyarakat</strong></h3>
-          <p class="pl-5">
-            Divisi Hubungan Masyarakat berperan untuk menjalin hubungan dengan masyarakat. Dimana masyarakat merupakan
-            segala elemen yang berbeda di luar BSB, baik sesama Forda , organisasi lain maupun masyarakat secara luas.
-          </p>
-        </div>
-        <div class="col-lg-6 mt-5">
-          <img src="assets/img/team/humas.png" class="rounded-circle mx-auto d-block">
-        </div>
-      </div>
-      <div class="container-fluid d-inline-flex mt-5">
-        <div class="col-lg-6 mt-5">
-          <img src="assets/img/team/psdm.png" class="rounded-circle mx-auto d-block">
-        </div>
-        <div class="col-lg-6 my-auto pr-5 mt-5">
-          <h3 class=""><strong>Divisi Pengembangan Sumber
-              Daya Manusia</strong></h3>
-          <p class="pr-5 pr-5">
-            Divisi Pengembangan Sumber Daya Manusia sebagai
-            wadah bagi para anggota dalam menjalain silaturahmi
-            dan merekatkan satu sama lain melalui berbagai kegiatan
-            internal dan sebagai fasilitator anggota BSB
-          </p>
-        </div>
-
-      </div>
+      
     </section>
     <!-- End About Section -->
     <!-- End Counts Section -->
@@ -191,7 +203,7 @@
         <div class="row justify-content-center">
           <div class="col-xl-10">
             <div class="row">
-              <div class="col-lg-3 col-md-6 footer-links">
+              <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-down-right">
                 <h4>Kontak Kami</h4>
                 <ul>
                   <li>
@@ -204,7 +216,7 @@
                 </ul>
               </div>
 
-              <div class="col-lg-3 col-md-6 footer-links">
+              <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-down-right" data-aos-delay="300">
                 <h4>Media Sosial Kami </h4>
                 <ul>
                   <li>
@@ -230,7 +242,7 @@
 
               </div>
 
-              <div class="col-lg-3 col-md-6 footer-info">
+              <div class="col-lg-3 col-md-6 footer-info" data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">
                 <img src="assets/img/logo.png" class="mx-auto d-block" width="100px" alt="">
                 <p class="text-center mt-3">
                   Brawijaya Student From <br>Bojonegoro
@@ -247,7 +259,7 @@
         &copy; Copyright <strong><span>Kominfo BSB</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Made With <i class='icofont-ui-love text-red'></i> By yosydz
+        Made With <i class='icofont-ui-love text-red'></i> By KelDDAP
       </div>
     </div>
   </footer>
@@ -269,6 +281,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- js aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1500,
+      once: false,
+    });
+  </script>
 </body>
 
 </html>

@@ -11,6 +11,10 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet" />
+
+  <!-- aos stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <style>
     * {
       font-family: "Montserrat", sans-serif;
@@ -19,7 +23,7 @@
 </head>
 
 <body>
-  <header id="header" class="fixed-top">
+  <header id="header" class="fixed-top" data-aos="fade-down">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-xl-10 d-flex align-items-center justify-content-end">
@@ -35,7 +39,6 @@
               <li><a href="divisi.html">Divisi</a></li>
               <li><a href="gallery.html">Gallery</a></li>
               <li><a href="tentang.html">Tentang</a></li>
-              <li><a href="#">Login</a></li>
             </ul>
           </nav>
         </div>
@@ -52,18 +55,21 @@
         <!-- Slide 1 -->
         <div class="carousel-item active img-fluid" style="background-image: url(assets/img/slide/slide-1.jpg)">
           <div class="carousel-container">
-            <div class="container d-inline-flex">
-              <div class="col-md-6 my-auto">
-                <h2 class="text-left animated fadeInDown">
-                  Brawijaya Student From Bojonegoro
-                </h2>
-                <p class="text-left animated fadeInUp">
-                  Organisasi para mahasiswa yang sedang belajar di Universitas Brawijaya yang berdomisili dari
-                  Bojonegoro.
-                </p>
-              </div>
-              <div class="col-md-6">
-                <img src="assets/img/logo.png" width="350px" alt="">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-6 my-auto" data-aos="zoom-in">
+                  <h2 class="text-lg-left text-sm-center animated fadeInDown">
+                    Brawijaya Student From Bojonegoro
+                  </h2>
+                  <p class="text-lg-left text-sm-center animated fadeInUp">
+                    Organisasi para mahasiswa yang sedang belajar di Universitas Brawijaya yang berdomisili dari
+                    Bojonegoro.
+                  </p>
+                </div>
+                <div class="col-lg-6 text-lg-right">
+                  <img src="assets/img/logo.png" width="350px" class="img-fluid" alt="" data-aos="flip-left"
+                    data-aos-delay="300">
+                </div>
               </div>
             </div>
           </div>
@@ -89,15 +95,16 @@
     <section id="about" class="about">
       <div class="container">
         <br class="row">
-        <img src="assets/img/team/kahim.png" class="rounded-circle mx-auto d-block">
-        <p class="text-center mt-5">
+        <img src="assets/img/team/kahim.png" class="rounded-circle mx-auto d-block" data-aos="flip-left"
+          data-aos-delay="">
+        <p class="text-center mt-5" data-aos="fade-in" data-aos-duration="2000">
           “BSB merupakan forum daerah untuk mahasiswa Universitas Brawijaya yang berasal dari Kabupaten Bojonegoro
           atau
           yang pernah menempuh pendidikan di Bojonegoro. Dengan BSB mari kita sama-sama menjalankan Tri Dharma
           mahasiswa”
         </p>
-        <p class="text-center"><strong>Ketua Umum BSB 2020/2021</strong></p>
-        <p class="text-center">Alfianti Nur F - FIA UB</p>
+        <p class="text-center" data-aos="fade-in"><strong>Ketua Umum BSB 2020/2021</strong></p>
+        <p class="text-center" data-aos="fade-in">Alfianti Nur F - FIA UB</p>
       </div>
       </div>
       </div>
@@ -108,18 +115,22 @@
     <section id="counts" style="background-color:#F69107;">
       <div class="container">
         <div class="row text-white">
-          <h2 class="mx-auto"><strong>Visi & Misi</strong></h2>
-          <p class="mx-auto text-center mt-5">Terwujudnya kemahasiswaan sebagai pilar aktif yang berkesinambungan dalam
+          <h2 class="mx-auto" data-aos="zoom-in"><strong>Visi & Misi</strong></h2>
+          <p class="mx-auto text-center mt-5" data-aos="fade-right">Terwujudnya kemahasiswaan sebagai pilar aktif yang
+            berkesinambungan dalam
             upaya
             peningkatan mutu kehidupan sosial dan pendidikan di Bojonegoro</p>
-          <i class="icofont-quote-left icofont-4x mx-auto"></i>
-          <p class="mx-auto text-center">Meningkatkan peran serta pemuda khusnya Mahasiswa yang merupakan kaum
+          <i class="icofont-quote-left icofont-4x mx-auto" data-aos="zoom-in"></i>
+          <p class="mx-auto text-center" data-aos="fade-left">Meningkatkan peran serta pemuda khusnya Mahasiswa yang
+            merupakan kaum
             intelektual dalam upaya memaksimalkan pembangunan di Bojonegoro utamanya dibidang pendidikan dan sosial</p>
 
-          <p class="mx-auto text-center">Menampung dan menyalurkan aspirasi serta kreatifitas positif Menampung dan
+          <p class="mx-auto text-center" data-aos="fade-left">Menampung dan menyalurkan aspirasi serta kreatifitas
+            positif Menampung dan
             menyalurkan aspirasi serta kreatifitas positif Mahasiswa BojonegoroMahasiswa Bojonegoro</p>
 
-          <p class="mx-auto text-center">Menjalin kerja sama dan jaringan ke dalam dan keluar bagi individu dan
+          <p class="mx-auto text-center" data-aos="fade-left">Menjalin kerja sama dan jaringan ke dalam dan keluar bagi
+            individu dan
             organisasi</p>
         </div>
       </div>
@@ -129,24 +140,24 @@
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts section-bg">
       <div class="container-fluid">
-        <h2 class="text-center"><strong>Visi & Misi</strong></h2>
+        <h2 class="text-center" data-aos="zoom-in"><strong>Media Sosial</strong></h2>
         <div class="row counters mt-5">
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-3 col-6 text-center" data-aos="flip-right">
             <img src="assets/img/medsos/instagram.png" alt="">
             <p class="mt-3">Instagram</p>
           </div>
 
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-3 col-6 text-center" data-aos="flip-right" data-aos-delay="300">
             <img src="assets/img/medsos/twitter.png" alt="">
             <p class="mt-3">Twitter</p>
           </div>
 
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-3 col-6 text-center" data-aos="flip-right" data-aos-delay="600">
             <img src="assets/img/medsos/line.png" alt="">
             <p class="mt-3">Line</p>
           </div>
 
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-3 col-6 text-center" data-aos="flip-right" data-aos-delay="900">
             <img src="assets/img/medsos/youtube.png" alt="">
             <p class="mt-3">Youtube</p>
           </div>
@@ -158,32 +169,36 @@
 
     <!-- ======= Artikel Section ======= -->
     <section id="about" class="about text-white" style="background-color:#B82D06;">
-      <h2 class="text-center"><strong>Kegiatan Kami</strong></h2>
-      <div class="container-fluid d-inline-flex mt-5">
-        <div class="col-lg-6 mt-5">
-          <img src="assets/img/kegiatan1.png" class="mx-auto d-block">
+      <h2 class="text-center" data-aos="zoom-in"><strong>Kegiatan Kami</strong></h2>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 mt-5" data-aos="fade-right">
+            <img src="assets/img/kegiatan1.png" class="img-fluid">
+          </div>
+          <div class="col-lg-6 m-auto" data-aos="fade-right">
+            <h3 class=""><strong>BSB Abdi Desa Jilid 2 2021</strong></h3>
+            <p class="">
+              Forum Daerah BSB baru saja menjalankan program kerja Abdi Desa untuk yang ke 2 kalinya di Dusun Sumur Lo,
+              Ds. Sumberbendo, kec. Bubulan, Bojonegoro pada tanggal 20 Maret 2021. Acara tersebut disambut dengan
+              hangat
+              oleh masyarakat setempat. Dari anak-anak hingga dewasa, semua antusias mengikuti rangkaian acara.
+            </p>
+            <p><a href="detail-artikel.html" class="text-light">Baca Selengkapnya</a></p>
+          </div>
         </div>
-        <div class="col-lg-6 my-auto pr-5 mt-5">
-          <h3 class=""><strong>BSB Abdi Desa Jilid 2 2021</strong></h3>
-          <p class="pr-5 pr-5">
-            Forum Daerah BSB baru saja menjalankan program kerja Abdi Desa untuk yang ke 2 kalinya di Dusun Sumur Lo,
-            Ds. Sumberbendo, kec. Bubulan, Bojonegoro pada tanggal 20 Maret 2021. Acara tersebut disambut dengan hangat
-            oleh masyarakat setempat. Dari anak-anak hingga dewasa, semua antusias mengikuti rangkaian acara.
-          </p>
-          <p><a href="detail-artikel.html" class="text-light">Baca Selengkapnya</a></p>
-        </div>
-      </div>
-      <div class="container-fluid d-inline-flex mt-5">
-        <div class="col-lg-6 my-auto pl-5 mt-5">
-          <h3 class="pl-5"><strong>Seminar Nasional Bhakti Pendidikan 2020</strong></h3>
-          <p class="pl-5">
-            Sebanyak lebih dari 600 peserta siswa sma sederajat dan umum ikut memeriahkan acara seminar nasional bhakti
-            pendidikan yang diselenggarakan oleh BSB di Gedung serbaguna Bojonegoro.
-          </p>
-          <p class="pl-5"><a href="detail-artikel.html" class="text-light">Baca Selengkapnya</a></p>
-        </div>
-        <div class="col-lg-6 mt-5">
-          <img src="assets/img/kegiatan2.png" class="mx-auto d-block">
+        <div class="row justify-content-center mt-5">
+          <div class="col-lg-6 m-auto" data-aos="fade-left" data-aos-delay="300">
+            <h3 class=""><strong>Seminar Nasional Bhakti Pendidikan 2020</strong></h3>
+            <p class="">
+              Sebanyak lebih dari 600 peserta siswa sma sederajat dan umum ikut memeriahkan acara seminar nasional
+              bhakti
+              pendidikan yang diselenggarakan oleh BSB di Gedung serbaguna Bojonegoro.
+            </p>
+            <p class=""><a href="detail-artikel.html" class="text-light">Baca Selengkapnya</a></p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <img src="assets/img/kegiatan2.png" class=" img-fluid">
+          </div>
         </div>
       </div>
     </section>
@@ -199,7 +214,7 @@
         <div class="row justify-content-center">
           <div class="col-xl-10">
             <div class="row">
-              <div class="col-lg-3 col-md-6 footer-links">
+              <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-down-right">
                 <h4>Kontak Kami</h4>
                 <ul>
                   <li>
@@ -212,7 +227,7 @@
                 </ul>
               </div>
 
-              <div class="col-lg-3 col-md-6 footer-links">
+              <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-down-right" data-aos-delay="300">
                 <h4>Media Sosial Kami </h4>
                 <ul>
                   <li>
@@ -238,7 +253,7 @@
 
               </div>
 
-              <div class="col-lg-3 col-md-6 footer-info">
+              <div class="col-lg-3 col-md-6 footer-info" data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">
                 <img src="assets/img/logo.png" class="mx-auto d-block" width="100px" alt="">
                 <p class="text-center mt-3">
                   Brawijaya Student From <br>Bojonegoro
@@ -255,7 +270,7 @@
         &copy; Copyright <strong><span>Kominfo BSB</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Made With <i class='icofont-ui-love text-red'></i> By yosydz
+        Made With <i class='icofont-ui-love text-red'></i> By KelDDAP
       </div>
     </div>
   </footer>
@@ -277,6 +292,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- js aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1500,
+      once: false,
+    });
+  </script>
+
 </body>
 
 </html>
